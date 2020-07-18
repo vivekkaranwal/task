@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+.brand{
+  width: 100px;
+  margin-right: 0px;
+  margin-left: 30px;
+}
+hr{
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+body{
+  font-family: 'Mulish', sans-serif;
+}
+.nav{
+  width: 80px;
+  margin-right: 70px;
+}
+.nav-item a{
+  color: gray !important;
+}
+.btn1{
+   background-color: #ff5f40;
+   border: none;
+   border-radius: 5px;
+   padding: 10px;
+   margin-right: 100px;
+   color: white;
+  font-weight: bold;
+}
+.banner{
+  margin-top: 70px;
+}
+.small{
+  color: orangered;
+  font-weight: bold;
+}
+
+strong{
+  font-weight: bolder;
+  color: orangered;
+}
+.content{
+  margin-top: 90px;
+}
+.mainsection{
+  width: 90%;
+  margin: auto;
+}
+.btn2{
+  background-color: #f37121;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+}
+.btn{
+   margin-left: 120px;
+}
+.row3{
+  margin-top: 40px;
+}
+h1{
+  margin-top: 30px;
+}
+.btns{
+  background-color: white !important;
+  color: #f37121;
+  border: 1px solid #ff5f40;
+}
+.btn:hover{
+  background-color: #ffffff !important;
+  color: #f37121;
+  border: 1px solid #ff5f40;
+}
+.btns:hover{
+  background-color: #f37121 !important;
+  color: white;
+}
+.getstart{
+   margin-top: 30px;
+   margin-bottom: 80px;
+}
+.getstart a{
+  margin-top: 30px;
+  text-decoration: underline;
+}
+.navbar-toggler{
+  border: 2px solid gray;
+  color: black !important;
+} 
+@media(max-width:1300px){
+  .nav{
+    width: 80px;
+    margin-right: 0px;
+  }
+  .nav-item a{
+    color: gray !important;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .brand{
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .button{
+    text-align: center;
+    margin-left: 100px;
+  }
+  .btn1{
+    width: 150px;
+  }
+  .btn{
+    margin-left: 0px;
+  }
+ .row3{
+   text-align: center;
+ }
+}
